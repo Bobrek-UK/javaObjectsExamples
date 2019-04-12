@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=BankAccount
+comment0.text=\r\n\ This\ class\ allows\ for\ the\ representation\ of\ bank\ account\ objects.\ This\r\n\ class\ contains\ attributes\ to\ store\ an\ account\ number,\ the\ customer's\ name\r\n\ and\ the\ account's\ balance.\ These\ attributes\ are\ set\ at\ construction\ and\ can\r\n\ be\ retrieved\ or\ altered\ by\ the\ various\ methods\ below.\r\n\ \r\n\ This\ class\ also\ contains\ methods\ for\ recording\ a\ deposit\ or\ withdrawal\ of\r\n\ funds.\r\n\r\n\ @author\ Richard\ Crisp\r\n\ @version\ 1.0\r\n
+comment1.params=number\ name\ balance
+comment1.target=BankAccount(java.lang.String,\ java.lang.String,\ double)
+comment1.text=\r\n\ Default\ constructor\ for\ a\ bank\ account\ object\r\n\ \r\n\ @param\ number\ the\ bank\ account\ number\ (as\ a\ String)\r\n\ @param\ name\ the\ name\ of\ the\ account\ holder\ (as\ a\ String)\r\n\ @param\ balance\ the\ balance\ of\ the\ account\ (as\ a\ double)\r\n
+comment2.params=
+comment2.target=java.lang.String\ getAccountNumber()
+comment2.text=\r\n\ A\ method\ for\ returning\ the\ account\ number\ of\ this\ account\r\n\r\n\ @return\ the\ account\ number\ for\ this\ account\ (as\ a\ String)\ \ \r\n
+comment3.params=name
+comment3.target=void\ setCustomerName(java.lang.String)
+comment3.text=\r\n\ A\ method\ for\ setting\ the\ name\ of\ the\ account\ holder\r\n\r\n\ @param\ name\ the\ name\ of\ the\ account\ holder\ (as\ a\ String)\ \ \r\n
+comment4.params=
+comment4.target=java.lang.String\ getCustomerName()
+comment4.text=\r\n\ A\ method\ for\ returning\ the\ name\ of\ the\ account\ holder\r\n\r\n\ @return\ name\ of\ the\ account\ holder\ (as\ a\ String)\ \ \r\n
+comment5.params=
+comment5.target=double\ getAccountBalance()
+comment5.text=\r\n\ A\ method\ for\ returning\ the\ account\ number\ of\ this\ account\r\n\r\n\ @return\ the\ account\ number\ for\ this\ account\ (as\ a\ String)\ \ \r\n
+comment6.params=withdrawIn
+comment6.target=void\ withdraw(double)
+comment6.text=\r\n\ A\ method\ for\ applying\ a\ withdrawal\ of\ funds\ to\ an\ account\r\n\r\n\ @param\ withdrawIn\ the\ amount\ being\ withdrawn\ (as\ a\ double)\ \ \r\n
+comment7.params=depositIn
+comment7.target=void\ deposit(double)
+comment7.text=\r\n\ A\ method\ for\ applying\ a\ deposit\ of\ funds\ to\ an\ account\r\n\r\n\ @param\ depositIn\ the\ amount\ being\ deposited\ (as\ a\ double)\ \ \r\n
+numComments=8

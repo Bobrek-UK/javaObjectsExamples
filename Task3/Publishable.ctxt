@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Publishable
+comment0.text=\r\n\ Publishable\ Interface\ Class\r\n\ \r\n\ Note\:\ This\ Class\ is\ required\ for\ Assignment\ Task\ 3.\r\n\ \r\n\ @author\ Robert\ Stanley\r\n\ @version\ 1.0\r\n
+comment1.params=titleIn
+comment1.target=void\ setTitle(java.lang.String)
+comment1.text=\r\n\ Set\ a\ publication's\ title\r\n\ \r\n\ @param\ nameIn\ \ The\ name\ of\ a\ publication\r\n
+comment2.params=priceIn
+comment2.target=void\ setPrice(double)
+comment2.text=\r\n\ Set\ a\ publication's\ price\r\n\ \r\n\ @param\ priceIn\ \ The\ price\ of\ a\ publication\r\n
+comment3.params=
+comment3.target=java.lang.String\ getTitle()
+comment3.text=\r\n\ Get\ a\ publication's\ title\r\n\ \r\n\ @\ return\ The\ publication\ title\r\n
+comment4.params=
+comment4.target=double\ getPrice()
+comment4.text=\r\n\ Get\ a\ publication's\ price\r\n\ \r\n\ @return\ The\ price\ of\ a\ publication\r\n
+numComments=5

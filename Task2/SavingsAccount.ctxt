@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=SavingsAccount
+comment0.text=\r\n\ This\ class\ allows\ for\ the\ representation\ of\ savings\ account\ objects.\ This\r\n\ class\ contains\ an\ attributes\ to\ store\ the\ interest\ rate\ that\ is\ applicable\r\n\ to\ the\ account.\ This\ attribute\ can\ be\ set\ at\ construction\ and\ can\ be\r\n\ retrieved\ or\ altered\ by\ the\ various\ methods\ below.\r\n\ \r\n\ This\ class\ also\ contains\ a\ method\ for\ applying\ interest\ to\ the\ account\r\n\ balance.\ \r\n\ \r\n\ @author\ Richard\ Crisp\r\n\ @version\ 1.0\r\n
+comment1.params=number\ name\ balance\ rate
+comment1.target=SavingsAccount(java.lang.String,\ java.lang.String,\ double,\ double)
+comment1.text=\r\n\ Default\ constructor\ for\ a\ savings\ account\ object\r\n\ \r\n\ @param\ number\ the\ bank\ account\ number\ (as\ a\ String)\r\n\ @param\ name\ the\ name\ of\ the\ account\ holder\ (as\ a\ String)\r\n\ @param\ balance\ the\ balance\ of\ the\ account\ (as\ a\ double)\r\n\ @param\ rate\ the\ rate\ of\ interest\ for\ the\ account\ (as\ a\ double)\r\n\r\n
+comment2.params=withdrawIn
+comment2.target=void\ withdraw(double)
+comment2.text=\r\n\ A\ method\ for\ recording\ a\ withdrawal\ of\ funds\ from\ a\ savings\ account\r\n\ object.\ A\ withdrawal\ may\ not\ occur\ if\ it\ would\ cause\ the\ account\r\n\ balance\ to\ become\ negative.\r\n\r\n\ @param\ withdrawIn\ the\ amount\ to\ withdraw\ from\ the\ account\ (as\ a\ double)\ \ \r\n
+comment3.params=rate
+comment3.target=void\ setInterestRate(double)
+comment3.text=\r\n\ A\ method\ for\ setting\ the\ interest\ rate\ applicable\ to\ the\ account\r\n\r\n\ @param\ rate\ the\ %\ percent\ rate\ of\ interest\ for\ this\ account\ (as\ a\ double)\ \ \r\n
+comment4.params=
+comment4.target=double\ getInterestRate()
+comment4.text=\r\n\ A\ method\ for\ retrieving\ the\ interest\ rate\ applied\ to\ the\ account\r\n\r\n\ @return\ the\ current\ rate\ of\ interest\ for\ this\ account\ (as\ a\ double)\ \ \r\n
+comment5.params=
+comment5.target=void\ applyInterest()
+comment5.text=\r\n\ A\ method\ to\ apply\ interest\ to\ the\ account.\ No\ inputs\ are\ required\ as\r\n\ this\ method\ uses\ the\ previously\ established\ interest\ rate\r\n\ \r\n
+numComments=6

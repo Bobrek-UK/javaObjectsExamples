@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=CheckingAccount
+comment0.text=\r\n\ This\ class\ allows\ for\ the\ representation\ of\ checking\ account\ objects.\ This\r\n\ class\ contains\ an\ attribute\ to\ store\ the\ fees\ that\ are\ owed\ by\ the\ account.\r\n\ These\ attributes\ are\ set\ at\ construction\ and\ can\ be\ retrieved\ or\ altered\ by\r\n\ the\ various\ methods\ below.\r\n\ \r\n\ This\ class\ also\ contains\ methods\ for\ recording\ the\ addition\ of\ new\ fees\ or\r\n\ the\ application\ of\ these\ fees\ to\ the\ account\ balance.\r\n\r\n\ @author\ Richard\ Crisp\r\n\ @version\ 1.0\r\n
+comment1.params=number\ name\ balance
+comment1.target=CheckingAccount(java.lang.String,\ java.lang.String,\ double)
+comment1.text=\r\n\ Default\ constructor\ for\ a\ checking\ account\ object\ with\ no\ fees\r\n\ \r\n\ @param\ number\ the\ bank\ account\ number\ (as\ a\ String)\r\n\ @param\ name\ the\ name\ of\ the\ account\ holder\ (as\ a\ String)\r\n\ @param\ balance\ the\ balance\ of\ the\ account\ (as\ a\ double)\r\n\r\n
+comment2.params=number\ name\ balance\ fees
+comment2.target=CheckingAccount(java.lang.String,\ java.lang.String,\ double,\ double)
+comment2.text=\r\n\ Default\ constructor\ for\ a\ checking\ account\ object\ with\ initial\ fees\r\n\ \r\n\ @param\ number\ the\ bank\ account\ number\ (as\ a\ String)\r\n\ @param\ name\ the\ name\ of\ the\ account\ holder\ (as\ a\ String)\r\n\ @param\ balance\ the\ balance\ of\ the\ account\ (as\ a\ double)\r\n\ @param\ fees\ the\ initial\ owed\ fees\ for\ the\ account\ (as\ a\ double)\r\n\r\n
+comment3.params=
+comment3.target=double\ getFeesOwed()
+comment3.text=\r\n\ A\ method\ for\ retrieving\ the\ total\ fees\ owed\ for\ a\ checking\ account\ object\r\n\r\n\ @return\ the\ total\ fees\ owed\ for\ the\ account\ (as\ a\ double)\ \ \r\n
+comment4.params=feeIn
+comment4.target=void\ addFee(double)
+comment4.text=\r\n\ A\ method\ for\ adding\ a\ new\ fee\ to\ a\ checking\ account\ object.\r\n\r\n\ @param\ feeIn\ the\ amount\ to\ withdraw\ from\ the\ account\ (as\ a\ double)\ \ \r\n
+comment5.params=
+comment5.target=void\ applyFees()
+comment5.text=\r\n\ A\ method\ for\ applying\ the\ fees\ owed\ to\ an\ account.\ Once\ the\ fees\ have\r\n\ been\ withdrawn\ from\ the\ account\ the\ fees\ owed\ for\ the\ account\ are\ \r\n\ cleared.\r\n\ \ \ \r\n
+numComments=6
